@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Camila's Book — The Arrival of the Fortitude</title>
+<meta name="description" content="An interactive read of The Arrival of the Fortitude, Book One of the Fortitude Chronicles. Sixteen illustrated chapters with tap-to-define glossary words, phonetic pronunciation guides, comprehension quizzes and bookmarks." />
+<meta name="theme-color" content="#07070d" />
+<meta name="color-scheme" content="dark" />
+
+<meta property="og:type" content="book" />
+<meta property="og:title" content="Camila's Book — The Arrival of the Fortitude" />
+<meta property="og:description" content="An interactive read: sixteen illustrated chapters, tap-to-define glossary words, and a comprehension check after every chapter." />
+<meta name="twitter:card" content="summary" />
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2307070d'/%3E%3Cellipse cx='16' cy='17' rx='11' ry='2.6' fill='%23e8c585'/%3E%3Ccircle cx='16' cy='9' r='2.2' fill='%23f4d99f'/%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div id="root"></div>
+<noscript>
+  <div style="max-width:700px;margin:80px auto;padding:0 24px;font-family:'Cormorant Garamond',Georgia,serif;color:#f3ead7;font-size:22px;line-height:1.5">
+    <h1 style="font-weight:500">The Arrival of the <em style="color:#f4d99f">Fortitude</em></h1>
+    <p style="color:#c5bba0">This book is interactive — the glossary pop-ups, quizzes and bookmarks all need JavaScript. Please turn it on and reload.</p>
+  </div>
+</noscript>
+
+<!-- React 18.3.1, production builds, served from this repo: no CDN dependency,
+     nothing to compile in the browser. -->
+<script src="vendor/react.production.min.js"></script>
+<script src="vendor/react-dom.production.min.js"></script>
+
+<!-- Content -->
+<script src="js/data.js"></script>
+<script src="js/chapters.js"></script>
+
+<!-- Components (compiled from the design bundle's JSX; see README) -->
+<script src="js/art.js"></script>
+<script src="js/names.js"></script>
+<script src="js/glossary.js"></script>
+<script src="js/quiz.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
