@@ -87,7 +87,17 @@ window.GLOSSARY = {
   "alien": { phon:"AY-lee-un", def: "A living thing from another planet.", mnemonic: "Alien = NOT from here." },
   "captain": { phon:"KAP-tin", def: "The person in charge of a ship or a team.", mnemonic: "The captain calls the shots." },
   "sonar": { phon:"SOH-nar", def: "A way of using sound to 'see' underwater. The sound bounces back and shows what's there.", mnemonic: "Ping… ping… listen for the bounce." },
-  "shipyard": { phon:"SHIP-yard", def: "A place where ships are built.", mnemonic: "A YARD where SHIPS grow." }
+  "shipyard": { phon:"SHIP-yard", def: "A place where ships are built.", mnemonic: "A YARD where SHIPS grow." },
+  "active": { phon:"AK-tiv", def: "Busy and doing something right now — moving, working, or running.", mnemonic: "ACTive = in ACTion. If it’s active, something is happening." },
+  "sensitive": { phon:"SEN-suh-tiv", def: "Able to notice very tiny things. A sensitive machine can pick up a signal almost too small to find.", mnemonic: "SENSitive = great SENSES. It feels what everything else misses." },
+  "vary": { phon:"VAIR-ee", def: "To change, or to be different from one another.", mnemonic: "VARY sounds like VARIOUS — lots of different kinds. Things that vary are not all the same." },
+  "gasp": { phon:"GASP", def: "A quick, sharp breath in — the sound you make when you are surprised or scared.", mnemonic: "GASP! Pull the air in fast. Your mouth makes the shape of the word." },
+  "struggle": { phon:"STRUH-gul", def: "To work very hard at something difficult — or the hard work itself.", mnemonic: "Picture pushing a heavy box up a hill. That push is a struggle." },
+  "wander": { phon:"WAHN-der", def: "To move around with no set path. Your feet can wander, and so can your mind.", mnemonic: "WANDER = walk with no plan. (WONDER is thinking; WANDER is roaming.)" },
+  "resource": { phon:"REE-sorss", def: "Something useful you can use to build or do things — like metal, water, time, or people.", mnemonic: "RE-SOURCE = a SOURCE you can go back to. Dig it up and build with it." },
+  "loyal": { phon:"LOY-ul", def: "Sticking with someone and never letting them down, even when things get hard.", mnemonic: "A loyal dog waits by the door until you come home. Loyal means it stays." },
+  "bargain": { phon:"BAR-gin", def: "To go back and forth until both sides agree on a deal. A bargain is also a deal where you get a lot for a little.", mnemonic: "Two people trading: “Ten!” “Five!” “Seven.” That is a bargain." },
+  "value": { phon:"VAL-yoo", def: "To think something is important and worth a lot. The value of a thing is how much it is worth.", mnemonic: "What do you value? The things you would never trade away." }
 };
 
 window.CHAPTERS_META = [
